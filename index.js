@@ -6,7 +6,7 @@ var randomImageSource = "images/" + randomDiceImage; //images/dice1.png - images
 
  var image1 =  document.querySelectorAll("img")[0];
                                                                
- image1.setAttribute("src", randomImageSource);
+ image1.setAttribute("src", randomImageSource); 
 
 
  var randomNumber2 =Math.floor(Math.random() * 6) + 1; //1-6
